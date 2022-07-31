@@ -26,5 +26,5 @@ request.onload=function(){
 
 var resume='{"name":"krish", "dob":"dd/mm/yyyy","qualification":"master of engineering","email":"abc@gmail.com","area of interest":"web developing","skills":"html,css,bootstrap,js,reactjs","nationality":"indian","cgpa":"6.8"}';
 var myobj = JSON.parse(resume);
-console.log(myobj.name,myobj.qualification,myobj.skills);
+console.log(myobj.name);
 
